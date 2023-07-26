@@ -13,4 +13,31 @@ tokenizer = SwTokenizer('./ModernKoreanSubword.json', kiwi=kiwi)
 tokenizer.encode('國民新報時代에政合邦說을提唱하야日韓聯邦하기로主論하기도經하얏고')
 vocab_list = tokenizer.encode('國民新報時代에政合邦說을提唱하야日韓聯邦하기로主論하기도經하얏고')
 [tokenizer.id2vocab[i] for i in vocab_list]
+
+['國民',
+ '##新',
+ '##報',
+ '##時代',
+ '에/J',
+ '##政',
+ '##合',
+ '##邦',
+ '##說',
+ '을/J',
+ '##提唱',
+ '하/V',
+ '야/E',
+ '##日',
+ '##韓',
+ '##聯邦',
+ '하/V',
+ '기/E',
+ '로/J',
+ '##主',
+ '##論',
+ '하/V',
+ '기/E',
+ '도/J',
+ '##經',
+ '##하얏고']
 ```
