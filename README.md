@@ -12,7 +12,6 @@
 
 - `paragraph_list.pkl.bz2`: 학습에 사용된 전체 텍스트 데이터 (압축파일). 용량 문제로 [링크](https://drive.google.com/file/d/1LzD9zL2p93sMGTnT-sK9fiMgqhsyzTeE/view?usp=sharing)에서 다운 가능.
 - `chosun_1920_1945_sample.xlsx`: 조선일보 데이터 샘플
-- `mag_num.csv`: 근현대잡지자료 통계 정보
 
 ## 사용 방법
 
